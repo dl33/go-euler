@@ -14,7 +14,6 @@ func main()  {
 						fmt.Println(a)
 						fmt.Println(b)
 						fmt.Println(c)
-						fmt.Println(a * b * c)
 						return
 					}
 				}
