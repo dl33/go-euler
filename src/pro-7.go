@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"math"
+	"util"
 )
 
 func main()  {
@@ -10,7 +10,7 @@ func main()  {
 	var num int = 2
 
 	for {
-		if isPrime(num) {
+		if util.IsPrime(num) {
 			no ++
 
 			if no == 10001 {

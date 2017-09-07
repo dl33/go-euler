@@ -2,7 +2,7 @@ package util
 
 import "math"
 
-func isPrime(num int) bool {
+func IsPrime(num int) bool {
 	var ret bool = true
 	if num == 2 {
 		return ret
